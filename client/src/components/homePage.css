@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: rgb(255, 249, 240);
+  }
+  
+
+
+  /* Define styles for the header */
+  header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+  }
+  
+  /* Define styles for the navigation menu */
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  nav li {
+    float: left;
+  }
+  
+  nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav li a:hover {
+    background-color: #111;
+  }
+  
+  /* Define styles for the main section */
+  main {
+    padding: 20px;
+  }
+
+body {
+  background-color: rgb(252, 249, 238);
+}
+
+/* .card {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  padding: 16px;
+  text-align: center;
+} */
+  
+  h2 {
+    font-size: 36px;
+    text-align: center;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -16px;
+  }
+  
+  .column {
+    flex: 25%;
+    padding: 0 16px;
+  }
+  
+  .card {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 16px;
+    margin: 10px;
+    text-align: center;
+  }
+
+  .card .card-body {
+    background-color: #f8f9fa;
+  }
+  
+  .card h3 {
+    font-size: 24px;
+  }
+  
+  .card p {
+    font-size: 18px;
+    color: #888;
+  }
+  
+  .card a {
+    background-color: #e0c642;
+    color: white;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+  
+  .card a:hover {
+    background-color: #de9d24;
+  }
+  
+  /* Define styles for the footer */
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Define styles for the contact section */
+  #contact {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  #contact h2 {
+    font-size: 36px;
+    text-align: center;
+  }
